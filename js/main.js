@@ -6,10 +6,10 @@ function loadComponents(selector, archivo) {
     });
 }
 
-loadComponents("#header-placeholder", "components/header.html").then(() => {
+loadComponents("#header-placeholder", "/components/header.html").then(() => {
   initNavToggle();
 });
 
-loadComponents("#footer-placeholder", "components/footer.html").then(() => {
+loadComponents("#footer-placeholder", "/components/footer.html").then(() => {
   //the future funtion to call footer
 });
